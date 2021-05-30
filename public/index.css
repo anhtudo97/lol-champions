@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "BeaufortforLOL";
+  src: url("https://pokebook.xyz/mindx-homework-1/fonts/BeaufortforLOL-Bold.eot");
+  src: url("https://pokebook.xyz/mindx-homework-1/fonts/BeaufortforLOL-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://pokebook.xyz/mindx-homework-1/fonts/BeaufortforLOL-Bold.woff2")
+      format("woff2"),
+    url("https://pokebook.xyz/mindx-homework-1/fonts/BeaufortforLOL-Bold.woff")
+      format("woff"),
+    url("https://pokebook.xyz/mindx-homework-1/fonts/BeaufortforLOL-Bold.ttf")
+      format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BeaufortforLOL";
+  src: url("https://pokebook.xyz/mindx-homework-1/fonts/BeaufortforLOL-Regular.eot");
+  src: url("https://pokebook.xyz/mindx-homework-1/fonts/BeaufortforLOL-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://pokebook.xyz/mindx-homework-1/fonts/BeaufortforLOL-Regular.woff2")
+      format("woff2"),
+    url("https://pokebook.xyz/mindx-homework-1/fonts/BeaufortforLOL-Regular.woff")
+      format("woff"),
+    url("https://pokebook.xyz/mindx-homework-1/fonts/BeaufortforLOL-Regular.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "BeaufortforLOL", Arial, sans-serif;
+  -webkit-font-smoothing: antialised;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: baseline;
+}
+
+.table tbody td:hover,
+.table tbody td:focus,
+.table tbody td.active {
+  background: #34495e;
+  cursor: pointer;
+  color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.table .disabled:hover,
+.table .disabled *:hover {
+  cursor: not-allowed;
+}
+
+.champion-meta {
+  display: flex;
+  align-items: center;
+}
+
+.champion-img {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.champion-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+main {
+  padding-top: 140px;
+}
